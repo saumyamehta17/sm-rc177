@@ -3,9 +3,11 @@ Railscast sm-rc177 and sm-rc179
 
 Vestal-Versioning...
 ```
-
+To maintain versions after each edit
 ```
 Git Clone
+```
+git clone 'https://github.com/sweetymehta/sm-rc177.git'
 ```
 In gemfile
 ```
@@ -35,4 +37,8 @@ see seed.rb
 migrate seed
 ```
 rake db:seed
+```
+Rails console
+```
+rails c
 ```
